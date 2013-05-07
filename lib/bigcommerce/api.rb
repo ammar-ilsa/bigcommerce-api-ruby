@@ -351,7 +351,7 @@ module Bigcommerce
     def get_products_video(product_id, video_id)
       @connection.get("/products/#{product_id}/videos/#{video_id}", {})
     end
-    def get_store
+    def get_store_data
       @connection.get '/store'
     end
 
